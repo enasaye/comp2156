@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/enasaye/comp2156/issues"
   },
-  "homepage": "https://github.com/enasaye/comp2156#readme",
+
   "dependancies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -41,11 +41,21 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   },
   "dependencies": {
     "core-js": "^3.40.0",
+    "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
-    "svgo": "^3.3.2"
+    "svgo": "^3.3.2",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
