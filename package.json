@@ -9,7 +9,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages1 -d build"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://enasaye.github.io/comp2156",
   "repository": {
