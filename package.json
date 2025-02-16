@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://enasaye.github.io/comp2156",
+  "homepage": "https://enasaye.github.io/comp2156/dep-inclusions",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enasaye/comp2156.git"
