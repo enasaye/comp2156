@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://enasaye.github.io/<repository-name>",
+  "homepage": "https://enasaye.github.io/<https://github.com/enasaye/comp2156>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enasaye/comp2156.git"
@@ -22,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/enasaye/comp2156/issues"
   },
-
   "dependancies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -59,6 +58,7 @@
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.3.0"
   }
 }
